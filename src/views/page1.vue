@@ -1,36 +1,79 @@
 <template>
   <el-container>
-    <el-header style="margin-top: 0px; height: 80px"> HTTP </el-header>
-    <el-container>
-      <el-aside style="width: 200px">
-        <el-menu
-          default-active="2"
-          class="el-menu-vertical-demo"
-          background-color="#545c64"
-          text-color="#fff"
-          active-text-color="#ffd04b"
-          style="width: 195px; height: 940px"
-          :router="true"
-        >
-          <el-menu-item index="page1" style="margin-top: 10px">
-            <i class="el-icon-menu"></i>
-            <span slot="title">首页</span>
-          </el-menu-item>
-          <el-menu-item index="banner">
-            <i class="el-icon-setting"></i>
-            <span slot="title">banner</span>
-          </el-menu-item>
-          <el-menu-item index="login">
-            <i class="el-icon-setting"></i>
-            <span slot="title">login</span>
-          </el-menu-item>
-        </el-menu>
-      </el-aside>
-      <el-main>
-        
-        <router-view></router-view>
-      </el-main>
-    </el-container>
+    <el-main>
+      <el-row>
+        <el-col>
+          <el-card class="box-card1" style="margin-top: 0px"
+            ><el-row style="margin-top: 0px">33</el-row
+            ><el-row style="margin-top: 15px">租户总数</el-row>
+          </el-card>
+        </el-col>
+        <el-col>
+          <el-card
+            class="box-card2"
+            style="margin-top: -102px; margin-left: 380px"
+            ><el-row style="margin-top: 0px">102400</el-row
+            ><el-row style="margin-top: 15px">点击总数</el-row>
+          </el-card>
+        </el-col>
+        <el-col>
+          <el-card
+            class="box-card3"
+            style="margin-top: -102px; margin-left: 760px"
+          >
+            <el-row>76</el-row>
+            <el-row style="margin-top: 15px">用户总数</el-row>
+          </el-card>
+        </el-col>
+        <el-col>
+          <el-card
+            class="box-card4"
+            style="margin-top: -102px; margin-left: 1140px"
+            ><el-row style="margin-top: 0px">81</el-row
+            ><el-row style="margin-top: 15px">租户总数</el-row>
+          </el-card>
+        </el-col>
+        <el-col>
+          <el-card
+            class="box-card5"
+            style="margin-top: -102px; margin-left: 1520px"
+          >
+            <el-row>85</el-row
+            ><el-row style="margin-top: 15px">设备接入总数</el-row>
+          </el-card>
+        </el-col>
+      </el-row>
+      <div
+        id="pic1"
+        style="width: 1300px; height: 350px; margin-top: 20px"
+      ></div>
+      <div
+        id="pic2"
+        style="width: 550px; height: 350px; margin-left: 50px; margin-top: 0px"
+      ></div>
+      <div
+        id="pic3"
+        style="
+          width: 430px;
+          height: 300px;
+          margin-top: -650px;
+          margin-left: 1350px;
+        "
+      ></div>
+      <div
+        id="pic4"
+        style="width: 540px; height: 350px; margin-left: 700px; margin-top: 0px"
+      ></div>
+      <div
+        id="pic5"
+        style="
+          width: 540px;
+          height: 350px;
+          margin-left: 1300px;
+          margin-top: -350px;
+        "
+      ></div>
+    </el-main>
   </el-container>
 </template>
       
